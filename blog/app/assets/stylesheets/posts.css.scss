@@ -18,12 +18,13 @@ h1 {
         margin: 0;
         font-family: 'Gravitas One', 'Arial Black', serif;
         font-weight: normal;
+        padding-bottom: 30px;
 }
 p {
         color: #616161;
         line-height: 150%;
         margin-top: 10px;
-        margin-left: 60px;
+        margin-left: 10px;
 }
 h2 {
         color: #B1967C;
@@ -32,13 +33,24 @@ h2 {
         font-size: 1.5em;
         border-bottom: 2px white solid;
         background: url(images/head-icon.png) no-repeat 10px 10px;
-        padding: 0 0 2px 60px;
+        padding: 0 0 2px 10px;
         margin: 0;
 }
 .title {
         color: #B1967C;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2em;
-        margin-left: 60;
+        margin-left: 10px;
         margin-bottom: 25px;
+}
+.body {
+  color: #B1967C;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  border-style:solid;
+  border-width:1px;
+  padding: 5px;
+  width: 40%;
 }
