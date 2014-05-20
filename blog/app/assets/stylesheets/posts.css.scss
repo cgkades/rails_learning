@@ -1,3 +1,44 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+        padding-top: 25px;
+}
+
+body {
+        width: 50%;
+        padding: 20px;
+        margin: 0 auto;
+        box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+        background-color: #E1EDEB;
+}
+h1 {
+        color: #666666;
+        font-size: 2.5em;
+        margin: 0;
+        font-family: 'Gravitas One', 'Arial Black', serif;
+        font-weight: normal;
+}
+p {
+        color: #616161;
+        line-height: 150%;
+        margin-top: 10px;
+        margin-left: 60px;
+}
+h2 {
+        color: #B1967C;
+        font-family: 'Gravitas One', 'Arial Black', serif;
+        font-weight: normal;
+        font-size: 1.5em;
+        border-bottom: 2px white solid;
+        background: url(images/head-icon.png) no-repeat 10px 10px;
+        padding: 0 0 2px 60px;
+        margin: 0;
+}
+.title {
+        color: #B1967C;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        margin-left: 60;
+        margin-bottom: 25px;
+}
